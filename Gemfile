@@ -35,11 +35,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # twitter-bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
-# font-awesome
+# font-awesome, nice font and logo
 gem "font-awesome-rails"
 
-# simple form
+# simple form for form design
 gem 'simple_form'
+
+# devise, is the authentication system
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
