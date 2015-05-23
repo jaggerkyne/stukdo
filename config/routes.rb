@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
 
   # Call tasks controller
-  resources :tasks
+  resources :tasks do
+    member do
+      put :change 
+    end
+  end
   # Call devise gem
   devise_for :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
